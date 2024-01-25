@@ -1,0 +1,129 @@
+body {
+    background: #1f1517;
+}
+
+.navbar {
+    max-width: 100vw;
+
+    padding: 1rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Teko", sans-serif;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar__links > a:nth-child(1) {
+    color: #fff;
+}
+
+.navbar__github i {
+    font-size: 48px;
+    color: #000;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marron {
+    color: #a45a49;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #181012;
+}
+
+.hero__container {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+
+    max-width: 1440px;
+    height: 60vh;
+
+    padding: 1rem 10rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero__header {
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-images__container {
+    column-count: 4;
+    column-gap: 1rem;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 3.4rem;
+}
+
+hr {
+    border: 1px solid #a45a49;
+}
+
+.hero-subtitle {
+    color: #c7bab3;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.button__container {
+    width: 100%;
+    max-width: 1120px;
+
+    margin: auto;
+    transform: translate(0, -50%);
+
+    padding: 0 var(--Padding-X---Grid, 160px);
+}
+
+button {
+    border-radius: 1rem;
+
+    background: #a45a49;
+
+    padding: 1rem;
+
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+
+    padding: 64px var(--Padding-X---Grid, 160px);
+}
